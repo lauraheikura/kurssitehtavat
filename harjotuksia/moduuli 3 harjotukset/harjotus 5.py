@@ -1,0 +1,10 @@
+ika = int(input("Kuinka vanha olet?"))
+
+if ika >= 65:
+    print("Olet eläkeiässä.")
+elif ika >= 18:
+    print("Olet työikäinen.")
+elif ika >= 7:
+    print("Olet kouluiässä.")
+else:
+    print("Olet pieni lapsi")
