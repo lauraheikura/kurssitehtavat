@@ -29,7 +29,7 @@ while True:
             print(f"Tulos on {tulos}")
 
         elif valinta == "4":
-            if luku2 == 0:
+            if luku2 == 0 or luku1 == 0:
                 print("Nollalla ei voi jakaa.")
             else:
                 tulos = luku1 / luku2
