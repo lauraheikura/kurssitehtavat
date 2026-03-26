@@ -1,3 +1,15 @@
+#Funktiot
+def yhteenlasku(a, b):
+    return a + b
+def vahennyslasku(a, b):
+    return a - b
+def kertolasku(a, b):
+    return a * b
+def jakolasku(a, b):
+    if b == 0:
+        return None
+    return a / b
+
 while True:
     print("Valitse toiminto:")
     print("1 = Yhteenlasku")
